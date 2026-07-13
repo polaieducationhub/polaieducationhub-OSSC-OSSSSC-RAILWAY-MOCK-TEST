@@ -220,23 +220,14 @@
       gap: 12px;
     }
 
-    .brand-logo-img {
-      height: 40px;
+    .logo-badge {
+      background-color: var(--accent-orange);
+      color: #ffffff;
+      padding: 8px 14px;
       border-radius: var(--radius);
-      background: #ffffff;
-      padding: 2px 6px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-      object-fit: contain;
-    }
-
-    .welcome-logo-img {
-      height: 65px;
-      margin-bottom: 16px;
-      border-radius: var(--radius-lg);
-      background: #ffffff;
-      padding: 6px 14px;
-      box-shadow: var(--shadow);
-      object-fit: contain;
+      font-weight: 800;
+      font-size: 18px;
+      box-shadow: 0 4px 10px rgba(255, 102, 0, 0.2);
     }
 
     .brand-text h1 {
@@ -998,7 +989,7 @@
   <header>
     <div class="header-content">
       <div class="brand-container">
-        <img src="logo.jpg" alt="Polai Education Hub" class="brand-logo-img">
+        <div class="logo-badge">🚆 PEH</div>
         <div class="brand-text">
           <h1>Polai Education Hub</h1>
           <p>OSSC / OSSSC / RAILWAY / SSC MATHEMATICS</p>
@@ -1018,7 +1009,7 @@
     
     <!-- ================= WELCOME / START PAGE ================= -->
     <div class="glass-card welcome-card" id="welcome-view">
-      <img src="logo.jpg" alt="Polai Education Hub" class="welcome-logo-img">
+      <div class="logo-badge" style="width: fit-content; margin: 0 auto 16px auto;">🚆 PEH</div>
       <h2>MOCK TEST 01</h2>
       <h3>OSSC / OSSSC / RAILWAY / SSC Mathematics (Matric Level)</h3>
 
